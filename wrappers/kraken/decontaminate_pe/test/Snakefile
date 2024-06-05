@@ -10,7 +10,8 @@ rule kraken__decontaminate_pe:
         std_out=temp("results/test_sample_decontamination.out"),
     params:
         taxid="9606 9607",  # space-separated list of taxaids to filter out
-        extra="",  # allowed "--include-children" and "--include-parents"
+        extra="",  # allowed "--include-children", "--include-parents"
+        # exclude=True, # default: True, converts to "--exclude"
     threads: 1
     log:
         "logs/kraken__decontaminate_pe.log",
