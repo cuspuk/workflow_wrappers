@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.13.6](https://github.com/cuspuk/workflow_wrappers/compare/v1.13.5...v1.13.6) (2024-06-05)
+
+
+### Bug Fixes
+
+* decontamination now allows to exclude/include ([5677849](https://github.com/cuspuk/workflow_wrappers/commit/5677849562c31d6e4390a2454cbfa3917673cb9a))
+
 ## [1.13.5](https://github.com/cuspuk/workflow_wrappers/compare/v1.13.4...v1.13.5) (2024-05-24)
 
 
