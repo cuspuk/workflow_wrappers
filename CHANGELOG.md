@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.13.7](https://github.com/cuspuk/workflow_wrappers/compare/v1.13.6...v1.13.7) (2024-06-07)
+
+
+### Performance Improvements
+
+* autobump conda envs ([9cf9895](https://github.com/cuspuk/workflow_wrappers/commit/9cf98956dd577d99ae8f55039220686a533decb6))
+
 ## [1.13.6](https://github.com/cuspuk/workflow_wrappers/compare/v1.13.5...v1.13.6) (2024-06-05)
 
 
