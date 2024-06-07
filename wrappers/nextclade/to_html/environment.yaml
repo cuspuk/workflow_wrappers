@@ -5,4 +5,4 @@ channels:
 dependencies:
   - python =3.12.3
   - pandas =2.2.2
-  - panel =1.4.3
+  - panel =1.4.4
