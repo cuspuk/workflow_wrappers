@@ -9,7 +9,7 @@ rule bwa__filter_reads_from_reference_pe:
     params:
         indices=["bwa_index/ref"],
         keep_param="-F 2",
-        sample=lambda w, input: os.path.basename(input.r1).replace("_R1.fastq.gz", ""),
+        fastq_param="-t -n",
     threads: 2
     log:
         "logs/bwa__filter_reads_from_reference.log",
