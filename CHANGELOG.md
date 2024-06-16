@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.14.0](https://github.com/cuspuk/workflow_wrappers/compare/v1.13.7...v1.14.0) (2024-06-16)
+
+
+### Features
+
+* expanded bwa _decontamination ([5e2b379](https://github.com/cuspuk/workflow_wrappers/commit/5e2b3793cc5f22d94dd674d57507d3e0e79c18d7))
+
 ## [1.13.7](https://github.com/cuspuk/workflow_wrappers/compare/v1.13.6...v1.13.7) (2024-06-07)
 
 
