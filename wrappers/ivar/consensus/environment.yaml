@@ -3,5 +3,5 @@ channels:
   - bioconda
   - nodefaults
 dependencies:
-  - ivar =1.4.2
+  - ivar =1.4.3
   - samtools =1.20
