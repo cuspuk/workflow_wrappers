@@ -3,6 +3,6 @@ channels:
   - bioconda
   - nodefaults
 dependencies:
-  - python =3.12.4
+  - python =3.12.5
   - pandas =2.2.2
-  - numpy =2.0.0
+  - numpy =2.1.1

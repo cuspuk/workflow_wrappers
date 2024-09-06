@@ -3,6 +3,6 @@ channels:
   - bioconda
   - nodefaults
 dependencies:
-  - python =3.12.4
+  - python =3.12.5
   - pandas =2.2.2
-  - panel =1.4.4
+  - panel =1.4.5
