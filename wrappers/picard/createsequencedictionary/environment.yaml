@@ -3,4 +3,4 @@ channels:
   - bioconda
   - nodefaults
 dependencies:
-  - picard =3.2.0
+  - picard =3.3.0
