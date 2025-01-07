@@ -100,8 +100,9 @@ def run_test_snake(test_dir: str):
 
 
 def call_snakefile(snakefile: str, tmpdir: str):
+    conda_prefix_dir = os.path.join(tmpdir, "tmp_conda")
     command = (
-        f"snakemake --show-failed-logs -c1 --snakefile {snakefile} --directory {tmpdir} --printshellcmds --use-conda"
+        f"snakemake --show-failed-logs -c1 --snakefile {snakefile} --directory {tmpdir} --printshellcmds --use-conda --conda-prefix {conda_prefix_dir}"
     )
     print("Calling command: {}".format(command))
 
