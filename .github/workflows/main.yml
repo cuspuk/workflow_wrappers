@@ -25,11 +25,12 @@ jobs:
       # proceed only if something in wrappers changed
       - name: Install mamba
         if: steps.changed-files-specific.outputs.any_changed == 'true'
-        uses: conda-incubator/setup-miniconda@v2
+        uses: conda-incubator/setup-miniconda@v3
         with:
-          activate-environment: snakemake
+          mamba-version: "1.*"
+          python-version: "3.12"
           channels: "conda-forge, bioconda"
-          miniforge-variant: Mambaforge
+          activate-environment: snakemake
           miniforge-version: latest
 
       - name: Install Snakemake

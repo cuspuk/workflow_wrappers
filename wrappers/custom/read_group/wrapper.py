@@ -12,12 +12,15 @@ class NotBGIHeader(Exception):
     """Exception raised when the input file is not BGI header"""
 
 
+class EmptyFastq(Exception):
+    """Exception raised when the input FASTQ is empty"""
+
 def _load_header(in_fastq: str) -> str:
     with gzip.open(in_fastq, "rt") as fastq_file:
         header = fastq_file.readline()
 
         if len(header) == 0:
-            raise ValueError("input FASTQ %s is empty" % header)
+            raise EmptyFastq("input FASTQ %s is empty" % header)
         return header
 
 
@@ -66,6 +69,8 @@ def _parse_flowcell_platform_info(in_fastq: str) -> tuple[str, str]:
             flowcell, platform = _parse_bgi_header(bgi_header)
         except NotBGIHeader:
             flowcell, platform = "unknown", "unknown"
+    except EmptyFastq:
+        flowcell, platform = "unknown", "unknown"
     return flowcell, platform
 
 
