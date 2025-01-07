@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.14.2](https://github.com/cuspuk/workflow_wrappers/compare/v1.14.1...v1.14.2) (2025-01-07)
+
+
+### Bug Fixes
+
+* read group does not fail on empty fastq ([31fb531](https://github.com/cuspuk/workflow_wrappers/commit/31fb531717dc5c7ba6f68246699a44ed9aa104b0))
+
 ## [1.14.1](https://github.com/cuspuk/workflow_wrappers/compare/v1.14.0...v1.14.1) (2024-07-06)
 
 
