@@ -27,7 +27,7 @@ jobs:
         if: steps.changed-files-specific.outputs.any_changed == 'true'
         uses: conda-incubator/setup-miniconda@v3
         with:
-          mamba-version: "*"
+          mamba-version: "1.*"
           python-version: "3.12"
           channels: "conda-forge, bioconda"
           activate-environment: snakemake
