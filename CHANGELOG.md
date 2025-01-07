@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.14.3](https://github.com/cuspuk/workflow_wrappers/compare/v1.14.2...v1.14.3) (2025-01-07)
+
+
+### Performance Improvements
+
+* bumped bowtie ([ec88bc8](https://github.com/cuspuk/workflow_wrappers/commit/ec88bc86ad88bebf7656553d3ebac3648632b1cc))
+
 ## [1.14.2](https://github.com/cuspuk/workflow_wrappers/compare/v1.14.1...v1.14.2) (2025-01-07)
 
 
