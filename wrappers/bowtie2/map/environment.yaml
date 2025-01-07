@@ -5,3 +5,4 @@ channels:
 dependencies:
   - bowtie2 =2.5.4
   - samtools =1.21
+  - python =3.11
